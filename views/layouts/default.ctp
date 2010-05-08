@@ -37,7 +37,7 @@
 	<link rel="icon" href="<?php echo $this->webroot;?>favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="<?php echo $this->webroot;?>favicon.ico" type="image/x-icon" />
 	<?php echo $html->css('cake.generic');?>
-	<?php echo $html->script(array('http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js')); ?>
+	<?php echo $javascript->link('/acl/js/jquery.min.js');?>
 	<?php echo $scripts_for_layout;?>
 </head>
 <body>
