@@ -1,5 +1,5 @@
 <div class="acl_menu">
-<?php print $html->image('/acl/img/tango/32x32/places/folder.png', array('align' => 'absmiddle')) ?><?php print $html->link('Acl Menu', array('admin'=>true,'plugin'=>'acl','controller'=>'acl')) ?>
+<?php print $html->image('/acl/img/tango/32x32/places/folder.png', array('align' => 'absmiddle')) ?><?php print $html->link('Acl Menu', array('admin'=>true,'plugin'=>'acl','controller'=>'acl','action'=>'index')) ?>
 
 <?php print $html->image('/acl/img/tango/32x32/apps/system-users.png', array('align' => 'absmiddle')) ?><?php print $html->link('Manage Aros', array('admin'=>true,'plugin'=>'acl','controller'=>'acl','action'=>'aros')) ?>
 
